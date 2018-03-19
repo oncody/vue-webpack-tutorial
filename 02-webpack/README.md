@@ -2,7 +2,7 @@
 
 # Notice that our 'index.html' file is under the 'dist' directory
 
-# Globally add the 'http-server' package to NPM
+# Globally add 'http-server'
 yarn global add http-server
 
 # Add our NPM dependencies
@@ -15,7 +15,7 @@ yarn build
 
 # This will package our 'main.js' file and its dependencies into a single 'main.js' file in our 'dist' directory
 
-# Have 'http-server' serve our 'index.html' file
+# Run 'http-server'
 yarn start
 
 # Open a browser to the address and port outputted from the last command
