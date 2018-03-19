@@ -1,11 +1,13 @@
 import Vue from 'vue';
 
+// Create a new vue component
 new Vue({
-    el: '#app',
-    data: function () {
+    el: '#app', // Bind this vue component to the HTML component named 'app'
+    data: function () { // The 'data' variable should always return a function
         return {
-            message: 'We are including vue from NPM and this message is coming from the \'main.js\' file'
+            message: 'Including vue from NPM and bundling it with webpack'
         }
     },
+    // Everything in this template will be injected inside the bound HTML component
     template: '<div><p>{{ message }}</p></div>'
 });

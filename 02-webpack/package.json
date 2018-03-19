@@ -1,14 +1,13 @@
 {
   "name": "02-webpack",
   "version": "1.0.0",
-  "description": "This is the most basic hello world vue example",
   "scripts": {
     "build": "webpack",
     "start": "http-server dist"
   },
   "keywords": [
     "vue",
-    "javascript"
+    "webpack"
   ],
   "author": "Cody Smith",
   "license": "MIT",
