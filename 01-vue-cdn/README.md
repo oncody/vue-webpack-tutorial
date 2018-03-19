@@ -1,15 +1,11 @@
-# Let us start with the most basic way of including vue
+# This simple example shows you how to include vue from a CDN
 
-# This is just including it from a CDN
-
-# We need a web server to serve our app
-
-# Let's use the npm 'http-server' package
- 
-# Globally add the 'http-server'
+# Globally add the 'http-server' package to NPM
 yarn global add http-server
 
-# Start a local http server to serve our index.html file
+# Have 'http-server' serve our 'index.html' file
 yarn start
 
-# Open a browser to the address and port outputted from the last command and see a basic example of vue injecting a variable into an HTML component
+# Open a browser to the address and port outputted from the last command
+ 
+# See a basic example of vue injecting a template and variable into an HTML component
