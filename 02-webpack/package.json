@@ -1,0 +1,20 @@
+{
+  "name": "02-hello-world-vue-router",
+  "version": "1.0.0",
+  "description": "This is the most basic hello world vue example",
+  "scripts": {
+    "build": "webpack",
+    "start": "http-server dist"
+  },
+  "keywords": [
+    "vue",
+    "javascript"
+  ],
+  "author": "Cody Smith",
+  "license": "MIT",
+  "devDependencies": {
+    "vue": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest"
+  }
+}
