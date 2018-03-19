@@ -8,4 +8,4 @@ yarn start
 
 # Open a browser to the address and port outputted from the last command
  
-# See a basic example of vue injecting a template and variable into an HTML component
+# If you see a message in your browser, then vue is working!
