@@ -3,7 +3,7 @@
 # Globally add the 'http-server' package to NPM
 yarn global add http-server
 
-# Add NPM dependencies
+# Add our NPM dependencies
 yarn
 
 # This will create a 'node_modules' directory with our dependencies
