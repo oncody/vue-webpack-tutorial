@@ -3,7 +3,7 @@ new Vue({
     el: '#app', // Bind this vue component to the HTML component named 'app'
     data: function () { // The 'data' variable should always return a function
         return {
-            message: 'Basic example of vue being included from a CDN'
+            message: 'Vue is included from a CDN and working!'
         }
     },
     // Everything in this template will be injected inside the bound HTML component

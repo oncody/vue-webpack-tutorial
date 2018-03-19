@@ -8,4 +8,4 @@ yarn start
 
 # Open a browser to the address and port outputted from the last command
  
-# If you see a message in your browser, then vue is working!
+# If you see our message from 'main.js', then vue is working!
