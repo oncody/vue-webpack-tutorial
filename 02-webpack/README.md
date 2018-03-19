@@ -1,5 +1,7 @@
 # Instead of using a CDN, let's download vue from NPM and bundle our modules with webpack.
 
+# Notice that our 'index.html' file is under our 'dist' directory
+
 # Globally add the 'http-server' package to NPM
 yarn global add http-server
 
