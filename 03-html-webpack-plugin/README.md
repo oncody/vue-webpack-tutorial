@@ -1,19 +1,25 @@
-# In our last example we had our 'index.html' file in our 'dist' directory
+# In our last example we had our 'index.html' file in the 'dist' directory
 
-# We should not manually add files to our 'dist' directory
+# We should not manually add files to the 'dist' directory
 
-# Globally add the 'http-server' package to NPM
+# Globally add 'http-server'
 yarn global add http-server
 
-# Add our NPM dependencies
+# Add dependencies
 yarn
 
-# Run webpack to bundle our dependencies. 
+# Bundle dependencies with webpack 
 yarn build
 
-# Have 'http-server' serve our 'index.html' file
+# Notice that webpack created a 'dist' directory for us
+
+# Also notice that the html-webpack-plugin moved our 'index.html' file to the 'dist' directory
+
+# The plugin also modified our 'index.html' file to include the new 'main.js' file that is bundled with its dependencies
+
+# Run 'http-server'
 yarn start
 
 # Open a browser to the address and port outputted from the last command
 
-# If you see a message in your browser, then vue is working!
+# If you see our message from 'main.js', then vue is working!
