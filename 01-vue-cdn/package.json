@@ -1,0 +1,14 @@
+{
+  "name": "01-vue-cdn",
+  "version": "1.0.0",
+  "description": "This is the most basic hello world vue example",
+  "scripts": {
+    "start": "http-server"
+  },
+  "keywords": [
+    "vue",
+    "javascript"
+  ],
+  "author": "Cody Smith",
+  "license": "MIT"
+}
