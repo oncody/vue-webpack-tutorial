@@ -9,5 +9,5 @@ new Vue({
         }
     },
     // Everything in this template will be injected inside the bound HTML component
-    template: '<div><p>{{ message }}</p></div>'
+    template: '<div>{{ message }}</div>'
 });
