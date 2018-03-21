@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "webpack",
-    "start": "http-server dist"
+    "start": "http-server"
   },
   "keywords": [
     "vue",
