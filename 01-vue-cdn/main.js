@@ -1,7 +1,7 @@
-// Create a new vue component
+// Initialize Vue
 new Vue({
     el: '#app', // Bind this vue component to the HTML component named 'app'
-    data: function () { // The 'data' variable should always return a function
+    data: function () { // The 'data' option should always return a function
         return {
             message: 'Vue is included from a CDN and working!'
         }
