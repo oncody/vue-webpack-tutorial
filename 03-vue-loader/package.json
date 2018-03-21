@@ -1,0 +1,22 @@
+{
+  "name": "03-vue-loader",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack",
+    "start": "http-server"
+  },
+  "keywords": [
+    "vue",
+    "webpack"
+  ],
+  "author": "Cody Smith",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "latest",
+    "vue": "latest",
+    "vue-loader": "latest",
+    "vue-template-compiler": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest"
+  }
+}
