@@ -1,6 +1,8 @@
 # Instead of using a CDN, let's add vue from NPM and bundle our modules with webpack
 
-# Notice that our 'index.html' file is under the 'dist' directory
+# Notice that index.html includes main.js from the 'dist' directory that does not exist yet
+
+# Webpack will generate this directory and file for us
 
 # Globally add 'http-server'
 yarn global add http-server
@@ -13,7 +15,9 @@ yarn
 # Run webpack to bundle our dependencies
 yarn build
 
-# This will package our 'main.js' file and its dependencies into a single 'main.js' file in our 'dist' directory
+# This will first create the 'dist' directory
+
+# Then it bundle main.js and all its dependencies into a single 'main.js' file inside 'dist'
 
 # Run 'http-server'
 yarn start
