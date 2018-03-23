@@ -3,7 +3,7 @@
 
 <!-- Include HTML here -->
 <template>
-    <div> <!-- Always put your HTML inside a single outermost HTML component -->
+    <div> <!-- Always put HTML inside a single outermost HTML component -->
         {{ message }}
     </div>
 </template>
