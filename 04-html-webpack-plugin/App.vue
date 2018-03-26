@@ -8,7 +8,7 @@
     module.exports = {
         data: function () { // The 'data' option should always return a function
             return {
-                message: 'Vue is successfully working with HtmlWebpackPlugin!'
+                message: 'HtmlWebpackPlugin is working!'
             }
         }
     }

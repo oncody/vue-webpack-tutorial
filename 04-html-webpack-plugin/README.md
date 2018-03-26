@@ -20,4 +20,4 @@ yarn start
 
 # Open a browser to the address and port outputted from the last command
 
-# If you see our message from 'App.vue', then vue is working!
+# If you see our message from 'App.vue', then the html webpack plugin is working!
