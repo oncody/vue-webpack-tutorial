@@ -8,6 +8,6 @@ yarn global add http-server
 # Have 'http-server' serve our 'index.html' file
 yarn start
 
-# Open a browser to the address and port outputted from the last command
+# Open a web browser to the address and port http-server is serving our app
  
-# If you see our message from 'main.js', then vue is working from a CDN!
+# If you see our message from main.js, then vue is working from a CDN!
