@@ -1,8 +1,10 @@
-# Instead of using a CDN, let's add vue from NPM and bundle our modules with webpack
+# In this tutorial we'll show you how to include vue from NPM, and bundle it into your project using webpack
 
-# Notice that index.html includes main.js from the 'dist' directory that does not exist yet
+# Notice our index.html includes main.js from the 'dist' directory that does not exist yet
 
-# Webpack will generate this directory and file for us
+# Everything is fine
+
+# Webpack will create that directory and file when it runs
 
 # Globally add 'http-server'
 yarn global add http-server
@@ -12,7 +14,7 @@ yarn
 
 # This will create a 'node_modules' directory with our NPM dependencies
 
-# Run webpack to bundle our dependencies
+# Run webpack to bundle the dependencies of main.js into a new 'main.js' file
 yarn build
 
 # This will first create the 'dist' directory
