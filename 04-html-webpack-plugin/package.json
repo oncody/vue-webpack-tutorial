@@ -1,5 +1,5 @@
 {
-  "name": "02-webpack",
+  "name": "04-html-webpack-plugin",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack",
