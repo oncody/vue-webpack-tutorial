@@ -14,7 +14,7 @@
         // Component options go here
         data: function () { // The 'data' option should always return a function
             return {
-                message: 'Vue and vue-loader are working!'
+                message: 'Vue-loader is working!'
             }
         }
     }

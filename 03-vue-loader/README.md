@@ -16,4 +16,4 @@ yarn start
 
 # Open a browser to the address and port outputted from the last command
 
-# If you see our message from 'App.vue', then vue and vue-loader are working!
+# If you see our message from 'App.vue', then vue-loader is working!
