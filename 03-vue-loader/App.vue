@@ -14,7 +14,7 @@
         // Component options go here
         data: function () { // The 'data' option should always return a function
             return {
-                message: 'Vue is successfully working with single-file components!'
+                message: 'Vue and vue-loader are working!'
             }
         }
     }
