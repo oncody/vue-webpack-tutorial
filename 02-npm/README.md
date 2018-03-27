@@ -33,4 +33,4 @@ yarn start
 
 # Navigate to our app
 
-# Look for our message from main.js
+# Look for our message from index.js
