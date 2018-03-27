@@ -12,7 +12,7 @@ module.exports = {
             {
                 loader: 'vue-loader', // vue-loader allows you to write convenient single-file components
                 test: /\.vue$/ // regex listing which files vue-loader should process
-            },
+            }
         ]
-    },
+    }
 };
