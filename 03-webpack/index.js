@@ -1,3 +1,5 @@
+// This will import the vue package from NPM node_modules directory
+// Webpack will bundle all of this file's dependencies into this file when webpack runs
 import Vue from 'vue';
 
 new Vue({
