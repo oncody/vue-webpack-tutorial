@@ -1,5 +1,5 @@
 {
-  "name": "02-webpack",
+  "name": "03-webpack",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack",
