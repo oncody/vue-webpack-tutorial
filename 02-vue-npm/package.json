@@ -1,0 +1,15 @@
+{
+  "name": "02-vue-npm",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "http-server"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "Cody Smith",
+  "license": "MIT",
+  "devDependencies": {
+    "vue": "latest"
+  }
+}
