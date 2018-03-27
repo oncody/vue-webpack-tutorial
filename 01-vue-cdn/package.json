@@ -5,8 +5,7 @@
     "start": "http-server"
   },
   "keywords": [
-    "vue",
-    "webpack"
+    "vue"
   ],
   "author": "Cody Smith",
   "license": "MIT"
