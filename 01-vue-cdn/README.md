@@ -5,9 +5,9 @@
 # Globally add the 'http-server' package to NPM
 yarn global add http-server
 
-# Have 'http-server' serve our 'index.html' file
+# Have http-server serve our 'index.html' file
 yarn start
 
 # Navigate in a web browser to the address and port http-server is serving our app
  
-# Look for our message from main.js
+# Look for our message from index.js
