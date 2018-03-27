@@ -13,7 +13,7 @@ yarn build
 
 # Also notice that the html-webpack-plugin created an 'index.html' file in our 'dist' directory
 
-# This new index.html includes the new main.js in the 'dist' directory that is bundled with its dependencies
+# This new index.html includes the new index.js in the 'dist' directory that is bundled with its dependencies
 
 # Run 'http-server'
 yarn start
