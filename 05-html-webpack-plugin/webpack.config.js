@@ -18,7 +18,6 @@ module.exports = {
         ]
     },
     plugins: [
-        // Include html webpack plugin and point it at our index.html file
-        new HtmlWebpackPlugin({template: 'index.html'})
+        new HtmlWebpackPlugin({template: 'index.html'}) // Include html webpack plugin and point it at our index.html file
     ]
 };
