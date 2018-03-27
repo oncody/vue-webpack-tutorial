@@ -1,6 +1,8 @@
-# In this example we show how convenient single-file components are 
+# In this example we show how to configure vue-loader in webpack to use single file components
 
-# To have webpack support this, we need to configure vue-loader to process *.vue files
+# Single file components are great because all related code for your component is in the same place! 
+
+# To have webpack support this, we need to configure vue-loader to process all *.vue files
 
 # Globally add 'http-server'
 yarn global add http-server
