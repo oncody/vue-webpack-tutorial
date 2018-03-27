@@ -5,5 +5,5 @@ module.exports = {
     mode: 'development', // Whether to run webpack for development or production
     resolve: {
         alias: {'vue$': 'vue/dist/vue.esm.js'} // Necessary for vue
-    },
+    }
 };
