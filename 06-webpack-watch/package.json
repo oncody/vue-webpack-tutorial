@@ -1,5 +1,5 @@
 {
-  "name": "05-webpack-watch",
+  "name": "06-webpack-watch",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack --watch",
