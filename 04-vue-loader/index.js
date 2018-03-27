@@ -1,9 +1,8 @@
 import Vue from 'vue';
 import App from './App';
 
-// Initialize Vue
 new Vue({
-    el: '#app', // Bind this vue component to the HTML component named 'app'
-    template: '<App/>', // Anything inside the 'template' section of our App.vue file will be injected here!
+    el: '#app',
+    template: '<App/>', // Notice we are now creating a new custom App component in our template
     components: { App }, // List all dependent components here
 });
