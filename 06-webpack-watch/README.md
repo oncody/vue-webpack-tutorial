@@ -8,7 +8,7 @@ yarn global add http-server
 # Add NPM dependencies
 yarn
 
-# Run webpack with watch flag
+# Run webpack with the watch flag enabled
 yarn build
 
 # Run 'http-server'
