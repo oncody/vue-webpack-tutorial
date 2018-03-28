@@ -1,4 +1,4 @@
-# In this example we show how to configure vue-loader in webpack to use single file components
+# In this tutorial you'll learn how to configure vue-loader in webpack to use single file components
 
 # Single file components are great because all related code for your component is in the same place! 
 

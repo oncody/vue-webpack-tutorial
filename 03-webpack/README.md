@@ -1,4 +1,4 @@
-# In this tutorial we'll show you how to use webpack to bundle your project's dependencies
+# In this tutorial you'll learn how to use webpack to bundle your project's dependencies
 
 # We now have a webpack configuration file (webpack.config.js)
 

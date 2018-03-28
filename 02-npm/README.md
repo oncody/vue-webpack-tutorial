@@ -1,4 +1,4 @@
-# In this tutorial we'll show you how to include vue from NPM
+# In this tutorial you'll learn how to include Vue from NPM
 
 # Notice we have a package.json file
 

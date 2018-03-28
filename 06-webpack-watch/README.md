@@ -1,6 +1,6 @@
-# In the past every time we made a change to our code, we had to manually run the build step again
+# In this tutorial you'll learn how to use the webpack watch flag to watch for code changes and automatically rebundle your code to speed up development
 
-# Using webpack's watch flag will automatically watch for file changes and rebuild the code 
+# This is significantly better than manually running webpack again each time you make a code change like we have had to do in the past tutorials
 
 # Globally add 'http-server'
 yarn global add http-server
