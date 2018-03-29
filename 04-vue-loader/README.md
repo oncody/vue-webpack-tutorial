@@ -13,9 +13,9 @@ yarn
 # Run webpack
 yarn build
 
-# Run 'http-server'
+# Run http-server
 yarn start
 
-# Open a browser to the address and port outputted from the last command
+# Navigate to our app
 
 # If you see our message from 'App.vue', then vue-loader is working!

@@ -17,9 +17,9 @@ yarn build
 
 # This new index.html includes the new index.js in the 'dist' directory that is bundled with its dependencies
 
-# Run 'http-server'
+# Run http-server
 yarn start
 
-# Open a browser to the address and port outputted from the last command
+# Navigate to our app
 
 # If you see our message from 'App.vue', then the html webpack plugin is working!

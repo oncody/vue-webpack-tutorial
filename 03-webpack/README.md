@@ -25,7 +25,7 @@ yarn build
 
 # Then it bundle index.js and all its dependencies into a single 'index.js' file inside 'dist'
 
-# Run 'http-server'
+# Run http-server
 yarn start
 
 # Navigate to our app

@@ -28,7 +28,7 @@ yarn
 
 # This will create a 'node_modules' directory with our vue NPM dependency
 
-# Run 'http-server'
+# Run http-server
 yarn start
 
 # Navigate to our app
