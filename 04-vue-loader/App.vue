@@ -26,10 +26,3 @@
         color: red;
     }
 </style>
-
-<!-- Put CSS that should apply globally to your application here -->
-<style>
-    div {
-        text-align: center;
-    }
-</style>
