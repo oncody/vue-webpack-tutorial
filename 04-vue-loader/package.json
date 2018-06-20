@@ -12,9 +12,6 @@
   "author": "Cody Smith",
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "latest",
-    "babel-loader": "latest",
-    "babel-plugin-transform-es2015-modules-commonjs": "latest",
     "css-loader": "latest",
     "vue": "latest",
     "vue-loader": "latest",

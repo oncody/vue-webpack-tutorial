@@ -16,10 +16,6 @@ module.exports = {
                 loader: 'vue-loader' // vue-loader allows you to write convenient single-file components
             },
             {
-                test: /\.js$/, // this will apply to both plain '.js' files and '<script>' blocks in '.vue' files
-                loader: 'babel-loader'
-            },
-            {
                 test: /\.css$/,  // this will apply to both plain `.css` files and '<style>' blocks in '.vue' files
                 use: [
                     'vue-style-loader',
@@ -29,6 +25,6 @@ module.exports = {
         ]
     },
     plugins: [
-        new VueLoaderPlugin() // explicitly include the vue loader plugin in your plugins list
+        new VueLoaderPlugin() // explicitly include the vue loader plugin in
     ]
 };
