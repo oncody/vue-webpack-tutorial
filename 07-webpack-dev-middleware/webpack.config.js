@@ -14,9 +14,6 @@ module.exports = {
         alias: {'vue$': 'vue/dist/vue.esm.js'}, // Necessary for vue
         extensions: ['.js', '.vue'] // You can require these files without their extensions
     },
-    devServer: {
-        hot: true,
-    },
     module: {
         rules: [
             {
