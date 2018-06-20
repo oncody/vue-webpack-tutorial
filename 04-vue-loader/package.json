@@ -16,6 +16,7 @@
     "vue": "latest",
     "vue-loader": "latest",
     "vue-template-compiler": "latest",
+    "vue-style-loader": "latest",
     "webpack": "latest",
     "webpack-cli": "latest"
   }
