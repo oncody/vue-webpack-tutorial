@@ -1,6 +1,13 @@
 'use strict';
 
 module.exports = {
+    parserOptions: {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "impliedStrict": true
+        }
+    },
     rules: {
         // Possible Errors
         'for-direction': 'error',
@@ -43,7 +50,7 @@ module.exports = {
         'array-callback-return': 'error',
         'block-scoped-var': 'error',
         'class-methods-use-this': 'error',
-        'complexity': 'error, 5',
+        'complexity': ['error', 5],
         'consistent-return': ['error', {treatUndefinedAsUnspecified: true}],
         'curly': 'error',
         'default-case': 'error',
@@ -78,7 +85,7 @@ module.exports = {
         'no-magic-numbers': ['warn', {ignore: [1], ignoreArrayIndexes: true}],
         'no-multi-spaces': 'error',
         'no-multi-str': 'off',
-        'no-new': 'error',
+        'no-new': 'warn',
         'no-new-func': 'error',
         'no-new-wrappers': 'error',
         'no-octal': 'error',
@@ -142,14 +149,14 @@ module.exports = {
         'no-sync': 'error',
 
         // Stylistic Issues
-        'array-bracket-newline': ['error', 'never'],
+        'array-bracket-newline': ['error', 'always'],
         'array-bracket-spacing': 'error',
-        'array-element-newline': ['error', 'never'],
+        'array-element-newline': ['error', 'always'],
         'block-spacing': 'error',
         'brace-style': 'error',
         'camelcase': 'error',
         'capitalized-comments': 'off',
-        'comma-dangle': ['error', 'always'],
+        'comma-dangle': ['error', 'never'],
         'comma-spacing': 'error',
         'comma-style': 'error',
         'computed-property-spacing': 'error',
@@ -161,7 +168,7 @@ module.exports = {
         'func-style': 'off',
         'function-paren-newline': ['error', 'never'],
         'id-blacklist': 'off',
-        'id-length': ['error', {min: 1, max: 20}],
+        'id-length': ['warn', {min: 1, max: 20}],
         'id-match': 'off',
         'implicit-arrow-linebreak': 'error',
         'indent': ['error', 2, {SwitchCase: 1}],
@@ -175,13 +182,13 @@ module.exports = {
         'max-depth': ['error', 4],
         'max-len': ['error', {code: 80}],
         'max-lines': ['error', 100],
-        'max-nested-callbacks': ['error', 2],
+        'max-nested-callbacks': ['error', 3],
         'max-params': ['error', 3],
         'max-statements': ['error', 10],
         'max-statements-per-line': 'error',
         'multiline-comment-style': ['error', 'separate-lines'],
         'multiline-ternary': 'off',
-        'new-cap': 'error',
+        'new-cap': 'warn',
         'new-parens': 'error',
         'newline-per-chained-call': 'error',
         'no-array-constructor': 'error',
