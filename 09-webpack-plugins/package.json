@@ -1,0 +1,27 @@
+{
+  "name": "09-webpack-plugin",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "vue",
+    "webpack"
+  ],
+  "author": "Cody Smith",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "latest",
+    "express": "latest",
+    "friendly-errors-webpack-plugin": "latest",
+    "html-webpack-plugin": "latest",
+    "vue": "latest",
+    "vue-loader": "latest",
+    "vue-style-loader": "latest",
+    "vue-template-compiler": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-middleware": "latest",
+    "webpack-hot-middleware": "latest"
+  }
+}
