@@ -6,14 +6,16 @@ module.exports = {
       vue$: 'vue/dist/vue.esm.js'
     }
   },
-    module: {
-        rules: [
-            {
-                test: /\.js$/,
-                exclude: /node_modules/,
-                loader: 'eslint-loader',
-                options: {fix: true}
-            }
-        ]
-    },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'eslint-loader',
+        options: {
+          fix: true
+        }
+      }
+    ]
+  }
 };
