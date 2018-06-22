@@ -1,9 +1,7 @@
 new Vue({
-    el: '#app',
-    data: function () { // The 'data' option should always return a function
-        return {
-            message: 'Vue is working from NPM!'
-        }
-    },
-    template: '<div>{{ message }}</div>'
+  el: '#app',
+  data() {
+    return {message: 'Vue is working from a CDN!'};
+  },
+  template: '<div>{{ message }}</div>'
 });
