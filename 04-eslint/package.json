@@ -1,0 +1,21 @@
+{
+  "name": "04-eslint",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack",
+    "start": "http-server"
+  },
+  "keywords": [
+    "vue",
+    "webpack"
+  ],
+  "author": "Cody Smith",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-loader": "latest",
+    "vue": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest"
+  }
+}
