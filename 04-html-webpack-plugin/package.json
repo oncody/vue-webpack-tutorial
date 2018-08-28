@@ -1,5 +1,5 @@
 {
-  "name": "05-html-webpack-plugin",
+  "name": "04-html-webpack-plugin",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack",
@@ -11,13 +11,11 @@
   ],
   "author": "Cody Smith",
   "license": "MIT",
+  "dependencies": {
+    "vue": "latest"
+  },
   "devDependencies": {
-    "css-loader": "latest",
     "html-webpack-plugin": "latest",
-    "vue": "latest",
-    "vue-loader": "latest",
-    "vue-style-loader": "latest",
-    "vue-template-compiler": "latest",
     "webpack": "latest",
     "webpack-cli": "latest"
   }

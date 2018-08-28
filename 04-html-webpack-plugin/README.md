@@ -5,20 +5,20 @@
 # We should not manually include files in the 'dist' directory
 
 # Globally add 'http-server'
-yarn global add http-server
+npm install -global http-server
 
 # Add NPM dependencies
-yarn
+npm install
 
 # Run webpack 
-yarn build
+npm run build
 
 # Also notice that the html webpack plugin created an 'index.html' file in our 'dist' directory
 
 # This new index.html includes the new index.js in the 'dist' directory that is bundled with its dependencies
 
 # Run http-server
-yarn start
+npm start
 
 # Navigate to our app
 
