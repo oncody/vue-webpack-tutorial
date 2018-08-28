@@ -3,10 +3,10 @@
 # Open our index.html file and you will see that we include Vue from a CDN
 
 # Globally add the 'http-server' package to NPM
-yarn global add http-server
+npm install -global http-server
 
 # Have http-server serve our 'index.html' file
-yarn start
+npm start
 
 # Navigate in a web browser to the address and port http-server is serving our app
  
