@@ -11,8 +11,10 @@
   ],
   "author": "Cody Smith",
   "license": "MIT",
+  "dependencies": {
+    "vue": "latest"
+  },
   "devDependencies": {
-    "vue": "latest",
     "webpack": "latest",
     "webpack-cli": "latest"
   }

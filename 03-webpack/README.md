@@ -11,22 +11,22 @@
 # This is intentional and webpack will create that directory and file for us when it runs
 
 # Globally add 'http-server'
-yarn global add http-server
+npm install -global http-server
 
 # Add our NPM dependencies
-yarn
+npm install
 
 # This will create a 'node_modules' directory with our NPM dependencies
 
 # Run webpack
-yarn build
+npm run build
 
 # This will first create the 'dist' directory
 
 # Then it bundle index.js and all its dependencies into a single 'index.js' file inside 'dist'
 
 # Run http-server
-yarn start
+npm start
 
 # Navigate to our app
 
