@@ -1,11 +1,8 @@
 import Vue from 'vue';
+import App from './App';
 
 new Vue({
   el: '#app',
-  data() {
-    return {
-      message: 'Vue is working with html-webpack-plugin!'
-    };
-  },
-  template: '<div>{{ message }}</div>'
+  template: '<App/>',
+  components: {App},
 });
