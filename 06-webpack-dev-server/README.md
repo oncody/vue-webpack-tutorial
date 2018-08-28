@@ -5,10 +5,10 @@
 # You don't even need to refresh your browser!
 
 # Add NPM dependencies
-yarn
+npm install
 
 # Run webpack-dev-server to run webpack, bundle your code and dependencies, and serve your web application
-yarn start
+npm start
 
 # Navigate to our app
 
@@ -16,4 +16,4 @@ yarn start
 
 # Change our message in App.vue and save the changes
 
-# If you see our new message in App.vue, then webpack watch is working!
+# If you see our new message in App.vue, then webpack hot swap is working!

@@ -5,13 +5,13 @@
 </template>
 
 <script>
-    module.exports = {
-        data: function () { // The 'data' option should always return a function
-            return {
-                message: 'webpack-dev-server is working' // Once you see this message in your browser, then change this string, save it, and instantly see your changes!
-            }
-        }
+  module.exports = {
+    data: function () { // The 'data' option should always return a function
+      return {
+        message: 'webpack-dev-server is working!'
+      }
     }
+  }
 </script>
 
 <style scoped>
