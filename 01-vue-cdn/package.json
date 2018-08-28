@@ -1,5 +1,5 @@
 {
-  "name": "01-vue-cdn",
+  "name": "01-cdn",
   "version": "1.0.0",
   "scripts": {
     "start": "http-server"
