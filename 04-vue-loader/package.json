@@ -11,9 +11,11 @@
   ],
   "author": "Cody Smith",
   "license": "MIT",
+  "dependencies": {
+    "vue": "latest"
+  },
   "devDependencies": {
     "css-loader": "latest",
-    "vue": "latest",
     "vue-loader": "latest",
     "vue-style-loader": "latest",
     "vue-template-compiler": "latest",

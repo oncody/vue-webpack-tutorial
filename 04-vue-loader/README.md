@@ -5,16 +5,16 @@
 # To have webpack support this, we need to configure vue-loader to process all *.vue files
 
 # Globally add 'http-server'
-yarn global add http-server
+npm install -global http-server
 
 # Add NPM dependencies
-yarn
+npm install
 
 # Run webpack
-yarn build
+npm run build
 
 # Run http-server
-yarn start
+npm start
 
 # Navigate to our app
 

@@ -11,8 +11,7 @@
 <!-- Put javascript here -->
 <script>
     module.exports = {
-        // Component options go here
-        data: function () { // The 'data' option should always return a function
+        data: () => { // The 'data' option should always return a function
             return {
                 message: 'Vue-loader is working!'
             }
