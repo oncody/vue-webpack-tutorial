@@ -9,7 +9,7 @@
   ],
   "author": "Cody Smith",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "vue": "latest"
   }
 }

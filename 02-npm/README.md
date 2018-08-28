@@ -21,15 +21,15 @@
 # This is intentional and NPM will create that directory and file for us when it runs
 
 # Globally add 'http-server'
-yarn global add http-server
+npm install -global http-server
 
 # Add our vue NPM dependency
-yarn
+npm install
 
 # This will create a 'node_modules' directory with our vue NPM dependency
 
 # Run http-server
-yarn start
+npm start
 
 # Navigate to our app
 
