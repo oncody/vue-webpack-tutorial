@@ -10,13 +10,13 @@
 
 <!-- Put javascript here -->
 <script>
-    module.exports = {
-        data: () => { // The 'data' option should always return a function
-            return {
-                message: 'Vue-loader is working!'
-            }
-        }
+  module.exports = {
+    data: () => { // The 'data' option should always return a function
+      return {
+        message: 'Vue-loader is working!'
+      }
     }
+  }
 </script>
 
 <!-- Put CSS that only applies to this file here -->
