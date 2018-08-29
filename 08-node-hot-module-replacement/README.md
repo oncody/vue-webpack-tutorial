@@ -5,10 +5,10 @@
 # This allows you to use node as your backend server and use webpack-dev-server to host and debug your frontend javascript code
 
 # Add NPM dependencies
-yarn
+npm install
 
 # Start the backend node express server which will integrate with webpack-dev-middleware to run webpack, bundle your code and dependencies, and serve your web application
-yarn start
+npm start
 
 # Navigate to our app
 
