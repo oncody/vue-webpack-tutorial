@@ -10,6 +10,6 @@ if (process.env.NODE_ENV === 'production') {
   developmentServer(app);
 }
 
-app.listen(3000, () => {
-  console.log('Example app listening on port 3000!\n');
+app.listen(8080, () => {
+  console.log('Example app listening on port 8080!\n');
 });
