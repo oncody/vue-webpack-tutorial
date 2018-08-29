@@ -5,13 +5,13 @@
 </template>
 
 <script>
-    module.exports = {
-        data: function () { // The 'data' option should always return a function
-            return {
-                message: 'webpack-dev-middleware is working!'
-            }
-        }
+  module.exports = {
+    data: function () { // The 'data' option should always return a function
+      return {
+        message: 'webpack-dev-middleware is working!'
+      }
     }
+  }
 </script>
 
 <style scoped>
