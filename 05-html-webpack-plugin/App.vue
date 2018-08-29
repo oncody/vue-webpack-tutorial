@@ -1,8 +1,8 @@
 <!-- Include HTML here -->
 <template>
-    <div> <!-- Always put HTML inside a single outermost HTML component -->
-        {{ message }}
-    </div>
+  <div> <!-- Always put HTML inside a single outermost HTML component -->
+    {{ message }}
+  </div>
 </template>
 
 <!-- Put javascript here -->
@@ -18,7 +18,7 @@
 
 <!-- Put CSS that only applies to this file here -->
 <style scoped>
-    div {
-        color: red;
-    }
+  div {
+    color: red;
+  }
 </style>
