@@ -2,7 +2,8 @@
   "name": "07-webpack-dev-middleware",
   "version": "1.0.0",
   "scripts": {
-    "start": "node server.js"
+    "build": "webpack --mode=production",
+    "start": "node ./server/server.js"
   },
   "keywords": [
     "vue",
@@ -10,10 +11,11 @@
   ],
   "author": "Cody Smith",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "css-loader": "latest",
     "express": "latest",
     "html-webpack-plugin": "latest",
+    "path": "latest",
     "vue": "latest",
     "vue-loader": "latest",
     "vue-style-loader": "latest",
