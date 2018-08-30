@@ -6,14 +6,14 @@
 </template>
 
 <script>
-  module.exports = {
-    // The 'data' option should always return a function
-    data() {
-      return {
-        message: 'webpack-dev-middleware is working!'
-      }
+module.exports = {
+  // The 'data' option should always return a function
+  data() {
+    return {
+      message: 'webpack-dev-middleware is working!'
+    };
   }
-  }
+};
 </script>
 
 <style scoped>

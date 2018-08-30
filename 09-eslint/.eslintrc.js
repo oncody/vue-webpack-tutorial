@@ -1,15 +1,16 @@
 const oncodyEslintConfig = require('oncody-eslint-config');
 
 let eslintConfig = {
-  parser: 'babel-eslint',
+  parser: 'vue-eslint-parser',
   plugins: [
-    'html'
+    'vue'
   ],
   extends: [
-    'vue'
+    'plugin:vue/recommended'
   ]
 };
 
-eslintConfig = Object.assign(eslintConfig, oncodyEslintConfig);
+eslintConfig = Object.assign(oncodyEslintConfig, eslintConfig);
+oncodyEslintConfig.parserOptions.parser = 'babel-eslint';
 
 module.exports = eslintConfig;
