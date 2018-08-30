@@ -28,6 +28,7 @@
     "vue-eslint-parser": "latest",
     "vue-loader": "latest",
     "vue-style-loader": "latest",
+    "vue-template-compiler": "latest",
     "webpack": "latest",
     "webpack-cli": "latest",
     "webpack-dev-middleware": "latest",
