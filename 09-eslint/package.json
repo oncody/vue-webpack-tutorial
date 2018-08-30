@@ -13,7 +13,7 @@
   ],
   "author": "Cody Smith",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "babel-eslint": "latest",
     "css-loader": "latest",
     "eslint": "latest",
