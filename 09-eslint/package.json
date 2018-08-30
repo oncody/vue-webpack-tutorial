@@ -14,9 +14,13 @@
   "author": "Cody Smith",
   "license": "MIT",
   "devDependencies": {
+    "babel-eslint": "latest",
     "css-loader": "latest",
     "eslint": "latest",
+    "eslint-config-vue": "latest",
     "eslint-loader": "latest",
+    "eslint-plugin-html": "latest",
+    "eslint-plugin-vue": "latest",
     "express": "latest",
     "html-webpack-plugin": "latest",
     "node-hot-module-replacement": "latest",

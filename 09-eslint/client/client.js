@@ -1,5 +1,5 @@
-const Vue = require('vue');
-const App = require('./App');
+const Vue = require('vue')
+const App = require('./App')
 
 new Vue({
   el: '#app',
@@ -7,4 +7,4 @@ new Vue({
   components: {
     App
   }
-});
+})

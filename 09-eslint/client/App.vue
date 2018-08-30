@@ -1,17 +1,19 @@
+<!-- Always put HTML inside a single outermost HTML component -->
 <template>
-  <div> <!-- Always put HTML inside a single outermost HTML component -->
+  <div>
     {{ message }}
   </div>
 </template>
 
 <script>
   module.exports = {
-         data: function() { // The 'data' option should always return a function
+    // The 'data' option should always return a function
+    data() {
       return {
-            message: 'webpack-dev-middleware is working!'
-      };
-    }
-  };
+        message: 'webpack-dev-middleware is working!'
+      }
+  }
+  }
 </script>
 
 <style scoped>
