@@ -1,0 +1,35 @@
+{
+  "name": "09-eslint",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "format": "eslint --fix **/*.js",
+    "start": "node ./server/server.js"
+  },
+  "keywords": [
+    "eslint",
+    "vue",
+    "webpack"
+  ],
+  "author": "Cody Smith",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "latest",
+    "eslint": "latest",
+    "eslint-loader": "latest",
+    "express": "latest",
+    "html-webpack-plugin": "latest",
+    "node-hot-module-replacement": "latest",
+    "oncody-eslint-config": "latest",
+    "path": "latest",
+    "vue": "latest",
+    "vue-eslint-parser": "latest",
+    "vue-loader": "latest",
+    "vue-style-loader": "latest",
+    "vue-template-compiler": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-middleware": "latest",
+    "webpack-hot-middleware": "latest"
+  }
+}
