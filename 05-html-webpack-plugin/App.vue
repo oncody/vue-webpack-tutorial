@@ -1,7 +1,12 @@
 <!-- Include HTML here -->
 <template>
-  <div> <!-- Always put HTML inside a single outermost HTML component -->
-    {{ message }}
+  <div>
+    <div>
+      <div> <!-- Always put HTML inside a single outermost HTML component -->
+        {{ message }}
+      </div>
+
+    </div>
   </div>
 </template>
 
